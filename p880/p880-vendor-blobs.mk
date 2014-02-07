@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/bin/lgdrmserver:system/bin/lgdrmserver \
     vendor/lge/p880/proprietary/bin/lgsecclkserver:system/bin/lgsecclkserver \
     vendor/lge/p880/proprietary/bin/nvcpud:system/bin/nvcpud \
-    vendor/lge/p880/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p880/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/lge/p880/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
@@ -28,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
     vendor/lge/p880/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
-    vendor/lge/p880/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/p880/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
     vendor/lge/p880/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
@@ -66,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/lib/libini.so:system/lib/libini.so \
     vendor/lge/p880/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p880/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
-    vendor/lge/p880/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lge/p880/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/lge/p880/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/lge/p880/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
@@ -109,6 +106,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p880/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/lge/p880/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/lge/p880/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so
+
+# DRM
+PRODUCT_COPY_FILES += \
+    vendor/lge/p880/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/lge/p880/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lge/p880/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/lge/p880/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/lge/p880/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so
 
 # "Binary hack"
 PRODUCT_COPY_FILES += \
