@@ -36,4 +36,8 @@ PRODUCT_PACKAGES += \
     TimeService \
     UpdateSetting
 
+# Media
+PRODUCT_PACKAGES += \
+    libHevcSwDecoder
+
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
