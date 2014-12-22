@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/hammerhead/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/hammerhead/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/hammerhead/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/hammerhead/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/hammerhead/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/hammerhead/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -70,7 +71,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/hammerhead/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/hammerhead/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/lge/hammerhead/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/lge/hammerhead/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
     vendor/lge/hammerhead/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
     vendor/lge/hammerhead/proprietary/lib/libmmcamera_imx179.so:system/lib/libmmcamera_imx179.so \
@@ -157,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libCommandSvc.so:system/vendor/lib/libCommandSvc.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -175,6 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \

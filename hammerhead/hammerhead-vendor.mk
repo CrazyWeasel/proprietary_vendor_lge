@@ -31,13 +31,15 @@ DEVICE_PACKAGE_OVERLAYS := vendor/lge/hammerhead/overlay
 
 # Apps
 PRODUCT_PACKAGES += \
+    PPPreference \
     qcrilmsgtunnel \
     shutdownlistener \
     TimeService \
     UpdateSetting
 
-# Media
+# Libs
 PRODUCT_PACKAGES += \
-    libHevcSwDecoder
+    libHevcSwDecoder \
+    libmm-abl
 
 $(call inherit-product, vendor/lge/hammerhead/hammerhead-vendor-blobs.mk)
