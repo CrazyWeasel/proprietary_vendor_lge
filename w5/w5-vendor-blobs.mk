@@ -23,4 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/w5/proprietary/etc/ACDB/Headset_cal.acdb:system/etc/ACDB/Headset_cal.acdb \
     vendor/lge/w5/proprietary/etc/ACDB/Speaker_cal.acdb:system/etc/ACDB/Speaker_cal.acdb \
     vendor/lge/w5/proprietary/etc/ACDB/workspaceFile.qwsp:system/etc/ACDB/workspaceFile.qwsp \
-    vendor/lge/w5/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so
+    vendor/lge/w5/proprietary/vendor/firmware/libpn547_fw.so:system/vendor/firmware/libpn547_fw.so \
+    vendor/lge/w5/proprietary/vendor/firmware/keymaster.ms323/keymaster.b00:system/vendor/firmware/keymaster.ms323/keymaster.b00 \
+    vendor/lge/w5/proprietary/vendor/firmware/keymaster.ms323/keymaster.b01:system/vendor/firmware/keymaster.ms323/keymaster.b01 \
+    vendor/lge/w5/proprietary/vendor/firmware/keymaster.ms323/keymaster.b02:system/vendor/firmware/keymaster.ms323/keymaster.b02 \
+    vendor/lge/w5/proprietary/vendor/firmware/keymaster.ms323/keymaster.b03:system/vendor/firmware/keymaster.ms323/keymaster.b03 \
+    vendor/lge/w5/proprietary/vendor/firmware/keymaster.ms323/keymaster.mdt:system/vendor/firmware/keymaster.ms323/keymaster.mdt
