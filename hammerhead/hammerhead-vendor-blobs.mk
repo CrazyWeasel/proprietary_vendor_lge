@@ -20,12 +20,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/lge/hammerhead/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/lge/hammerhead/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/hammerhead/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/hammerhead/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/hammerhead/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/hammerhead/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/hammerhead/proprietary/bin/nl_listener:system/bin/nl_listener \
-    vendor/lge/hammerhead/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/hammerhead/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/hammerhead/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/hammerhead/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -83,6 +81,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/lib/libssd.so:system/lib/libssd.so \
     vendor/lge/hammerhead/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/lge/hammerhead/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/hammerhead/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/lge/hammerhead/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/lge/hammerhead/proprietary/vendor/bin/vss_init:system/vendor/bin/vss_init \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/hammerhead/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
@@ -149,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
@@ -205,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/lge/hammerhead/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -224,7 +224,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/hammerhead/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/hammerhead/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/hammerhead/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
